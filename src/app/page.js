@@ -1,7 +1,16 @@
+'use client'
+
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
 
 export default function Home() {
+
+
+  
+
   return (
     <div className="min-h-screen px-5 py-5 bg-gradient-to-b from-[#eddaea] via-[#cdd9f0]  to-[#f2f8fd] to-30%">
       <div>
@@ -21,14 +30,11 @@ export default function Home() {
         LogIn or SignUp
         </p>
         <div>
-          <form className="flex gap-3">
-            <input type="text" placeholder="Enter phone number" className="px-5 py-2 focus:outline-none border-1 border-[#2b3136] font-inter rounded-lg" />
-            <div>
-            <button className="border-2 flex justify-center items-center px-4 m-auto py-3 text-md font-inter font-bold bg-[#cdd9f0] rounded-lg">
-              <ArrowRight className=' h-5 w-5 ' strokeWidth={3} />
-            </button> 
-            </div>
-          </form>
+        <Link href="/home">
+        <button className="border-2 flex justify-center items-center px-4 m-auto py-3 text-md font-inter font-bold bg-[#cdd9f0] rounded-lg">
+              Get Started<ArrowRight className='ml-5 h-5 w-5 ' strokeWidth={3} />
+            </button>
+        </Link> 
         </div>
       </div>
       </div>
