@@ -5,25 +5,47 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav>
-    <div className='items-center justify-center flex flex-row space-x-36  h-12'>
-    <div className='flex flex-row items-center justify-center'>
-    <Image src='/icons/coins.png' width={35} height={35} quality={100} color='black' />        
-          <Link href="/coins">Coins</Link>
+    
+    <div className='flex items-center justify-between px-5 py-5'>
+    <div className=' flex justify-center items-center gap-5'>
+    <div>
+        <Image height={50} width={160} src='/logo/logo.png' />
+      </div>
+        <div className='flex gap-20'>
+        <div className='flex flex-col items-center justify-center'>
+    {/* <Image src='/icons/coins.png' width={30} height={30} quality={100} color='black' />         */}
+          <Link className='text-sm font-inter ' href="/coins">Coins</Link>
           </div>
-          <div className='flex flex-row items-center justify-center'>
-          <Image src='/icons/vault.png' width={35} height={35} quality={100} color='black' /> 
-          <Link href="/vault">Vault</Link>
+          <div className='flex flex-col items-center justify-center'>
+          {/* <Image src='/icons/vault.png' width={30} height={30} quality={100} color='black' />  */}
+          <Link className='text-sm font-inter ' href="/vault">Vault</Link>
           </div>
-          <div className='flex flex-row items-center justify-center'>
-          <Image src='/icons/learn.png' width={35} height={35} quality={100} color='black' /> 
-          <Link href="/learn">Learn</Link>
+          <div className='flex flex-col items-center justify-center'>
+          {/* <Image src='/icons/learn.png' width={30} height={30} quality={100} color='black' />  */}
+          <Link className='text-sm font-inter ' href="/learn">Learn</Link>
           </div>
-         <button className='bg-cyan-950 h-8 rounded-full px-2 font-medium text-slate-50 '>
-            <Link href="/verify">Complete Verification</Link>
-            </button>
         </div>
-    </nav>
+    </div>
+         <div className='flex gap-3'>
+            <div className=' cursor-pointer'>
+              <Image src="/icons/user-pf.png" height={40} width={40} />
+            </div>
+            <div className='cursor-pointer'>
+              <h1 className='text-sm text-gray-700 font-inter'>Welcome</h1>
+              <h1 className='text-sm text-black font-semibold font-inter'>Joel Machado</h1>
+            </div>
+            <div className='px-4 cursor-pointer flex justify-center items-center rounded-[30px]  py-2 text-center font-inter text-xs bg-black text-white font-semibold'>
+              <p>Log out</p>
+            </div>
+            <div className='flex justify-center items-center border-2 rounded-[30px] ml-10 border-violet-300 px-4 py-2'>
+              <pre>
+              Bal: 0.000 
+              <span> USDT</span>
+              </pre>
+            </div>
+         </div>
+        </div>
+    
   );
 };
 
