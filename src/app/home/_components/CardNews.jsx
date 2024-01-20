@@ -4,7 +4,7 @@ import React from 'react'
 
 const CardNews = () => {
   return (
-    <div className='bg-white px-10 py-10 mt-10 flex gap-20 overflow-x-scroll no-scrollbar  cards-section'>
+    <div className='bg-white px-10 pt-10 pb-6 mt-10 flex gap-20 overflow-x-scroll no-scrollbar  cards-section'>
 
         <div className='min-w-[250px]'>
             <Link href='https://mudrex.com/blog/binance-ban-update/'>
