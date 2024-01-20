@@ -21,17 +21,17 @@ const CardNews = () => {
                 <Image src='/icons/card3.png' height={250} width={250} />
             </Link>
         </div>
-        <div className='min-w-[250px]'>
+        <div className='min-w-[250px] cursor-pointer'>
             
                 <Image src='/icons/card4.png' height={250} width={250} />
             
         </div>
-        <div className='min-w-[250px]'>
+        <div className='min-w-[250px] cursor-pointer'>
             
                 <Image src='/icons/card5.png' height={250} width={250} />
             
         </div>
-        <div className='min-w-[250px]'>
+        <div className='min-w-[250px] cursor-pointer'>
             
                 <Image src='/icons/card6.png' height={250} width={250} />
             

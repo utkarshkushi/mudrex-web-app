@@ -8,7 +8,7 @@ const Verify = () => {
         <div>
         <h1 className='font-inter font-semibold text-4xl '>Claim Your Free Investement Account</h1>
         
-        <button className=' mt-5 px-5 py-5 text-white font-inter font-semibold text-lg text-center rounded-lg bg-purple-300 bg-gradient-to-r from-[#492a81] from-50% to-[#2b427e] hover:scale-90 transition-all'>
+        <button className=' mt-5 px-5 py-5  text-white font-inter font-semibold text-lg text-center rounded-lg bg-purple-300 bg-gradient-to-r from-[#492a81] from-50% to-[#2b427e] hover:scale-90 transition-all'>
             Complete Verification
         </button>
         </div>
