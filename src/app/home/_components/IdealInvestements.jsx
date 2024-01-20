@@ -4,7 +4,7 @@ import React from 'react'
 
 const IdealInvestements = () => {
   return (
-    <div className='bg-white mt-10 px-10 py-10'>
+    <div className='bg-white px-10 py-10'>
         
         <div className='flex gap-5'>
             <div>
@@ -13,7 +13,7 @@ const IdealInvestements = () => {
             <h1 className='text-lg font-semibold font-inter '>Ideal for new investors</h1>
         </div>
 
-        <div className='flex justify-center gap-32 items-center mt-36'>
+        <div className='flex justify-center gap-32 items-center mt-20'>
 
         <div className='drop-shadow max-w-[200px]'>
             <div>
@@ -67,7 +67,7 @@ const IdealInvestements = () => {
 
         </div>
 
-        <div className='flex gap-5 mt-20 flex justify-center gap-32 items-center'>
+        <div className='flex mt-20 justify-center gap-32 items-center'>
 
 
         <div className='drop-shadow max-w-[200px]'>
