@@ -3,7 +3,7 @@ import React from 'react'
 
 const Verify = () => {
   return (
-    <div className='bg-white flex justify-around items-center px-10 py-10 mt-10'>
+    <div className='bg-white flex justify-center gap-20 mx-10 rounded-xl items-center px-10 py-10 mt-10'>
 
         <div>
         <h1 className='font-inter font-semibold text-4xl '>Claim Your Free Investement Account</h1>

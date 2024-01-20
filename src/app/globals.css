@@ -11,3 +11,7 @@
     text-wrap: balance;
   }
 }
+
+.cards-section::-webkit-scrollbar{
+  display: none;
+}
