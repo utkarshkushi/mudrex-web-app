@@ -11,6 +11,9 @@ module.exports = {
         manrope : ['Manrope' , 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif']
+      },
+      animation: {
+        'bounce-slow': 'bounce 5s infinite'
       }
     },
   },

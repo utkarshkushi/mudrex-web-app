@@ -13,15 +13,12 @@ const Navbar = () => {
       </div>
         <div className='flex gap-20'>
         <div className='flex flex-col items-center justify-center'>
-    {/* <Image src='/icons/coins.png' width={30} height={30} quality={100} color='black' />         */}
           <Link className='text-sm font-inter ' href="/coins">Coins</Link>
           </div>
           <div className='flex flex-col items-center justify-center'>
-          {/* <Image src='/icons/vault.png' width={30} height={30} quality={100} color='black' />  */}
           <Link className='text-sm font-inter ' href="/vault">Vault</Link>
           </div>
           <div className='flex flex-col items-center justify-center'>
-          {/* <Image src='/icons/learn.png' width={30} height={30} quality={100} color='black' />  */}
           <Link className='text-sm font-inter ' href="/learn">Learn</Link>
           </div>
         </div>
