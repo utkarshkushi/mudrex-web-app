@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Navbar from '../home/_components/Navbar';
 
 const videoUrls = ['https://www.youtube.com/embed/1x_kQshZJFs?si=Ii1nTQZssCRyNseh',
 'https://www.youtube.com/embed/Lr5wMN53Zs0?si=Bpy4SKj7nwN6YRqE',
@@ -17,19 +18,16 @@ function Page() {
   return (
         
     <div className=' bg-gradient-to-b from-[#eddaea] via-[#cdd9f0] to-[#f2f8fd] to-30% min-h-screen'>
-    <div className='flex justify-between'>
-    <h1 className='font-inter text-[22px] font-bold bg-gradient-to-r from-[#84b8da]  to-[#4db0a9] inline-block text-transparent bg-clip-text py-4 px-4'>Learn Crypto</h1>
-    <Image className='flex mx-4 ' src='/icons/questionMark.png' width={48} height={24}/>
-    </div>
+    <Navbar />
   <div className='flex justify-center align-center mx-4 py-8 '>
     <Image className="rounded-lg" src='/icons/quiz.jpg' width={380} height={450}  />  
 </div>
  <hr class="h-[10px] h-px my-8 bg-[#cdcbe8] border-0 "></hr>
-      <div className='flex mx-4'>
-        <h1 className='font-inter font-semibold text-3xl my-4 py-4 mx-8 py-[2px] text-left'>
+      <div className='flex gap-3'>
+        <h1 className='font-inter font-bold text-[22px] my-4 py-4 mx-8 py-[2px] text-left'>
           Understand your investment options at Mudrex!
         </h1>
-        <Image className="flex justify-right align-right"src='/icons/mudrex-logo-learn.png' width={90} height={60} />
+        <Image src='/icons/mudrex-logo-learn.png' width={70} height={50} />
       </div>
       <div className='flex mx-8 my-6 overflow-x-scroll cards-section'>
       {videoUrls.map((videoUrls, index) => (
