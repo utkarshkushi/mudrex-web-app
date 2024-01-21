@@ -11,7 +11,7 @@ const gainers = [
 
 const loss = [
     {name: 'Ripple' , link: '/icons/xrp.png', id: 1, gain: 2.992, percentage: 14.92},
-    {name: 'Binance' , link: '/icons/ethereum.png', id: 2, gain: 3.143, percentage: 13.43},
+    {name: 'Binance' , link: '/icons/binance.png', id: 2, gain: 3.143, percentage: 13.43},
     {name: 'Solana' , link: '/icons/solana.png', id: 3, gain: 3.045, percentage: 10.90},
 ]
 
