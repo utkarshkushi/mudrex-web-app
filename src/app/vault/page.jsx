@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../home/_components/Navbar'
 import VaultHero from './_components/VaultHero'
 import KeyBenefits from './_components/KeyBenefits'
+import Inflation from './_components/Inflation'
 
 const page = () => {
     return (
@@ -12,7 +13,7 @@ const page = () => {
             
             <KeyBenefits />
 
-            
+            <Inflation />
         </div>
     )
 }
