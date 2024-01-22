@@ -102,7 +102,7 @@ function Page() {
                 <Image  className="rounded-lg" src='/icons/news1.jpg' height={115} width={230} />
             </Link>
         </div>
-        <div className='min-w-[350px] mx-4 mb-4'>
+        <div className='min-w-[350px] mx-4'>
             <Link href='https://mudrex.com/blog/binance-ban-update/'>
                 <Image className="rounded-lg" src='/icons/news4.jpg' height={115} width={230} />
             </Link>
