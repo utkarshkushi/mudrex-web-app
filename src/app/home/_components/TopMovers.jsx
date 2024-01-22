@@ -31,7 +31,7 @@ const TopMovers = () => {
 
             <div className='flex gap-5'>
                 <h1 className='text-lg font-semibold font-inter '>Top Movers</h1>
-                <div className='px-2 py-2 bg-gradient-to-r rounded-md from-[#e66658] to-[#e8966d]'>
+                <div className='px-2 py-2 bg-gradient-to-r rounded-md from-[#e66658] animate-pulse to-[#e8966d]'>
                     <h1 className='text-xs font-inter font-semibold text-white'>In last 24 hours</h1>
                 </div>
             </div>
