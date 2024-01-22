@@ -86,7 +86,7 @@ function Page() {
       </div>
      
     
-      <div className='flex mx-8 my-8 overflow-x-scroll cards-section'>
+      <div className='flex mx-8 mt-8 py-8 overflow-x-scroll cards-section'>
       <div className='min-w-[350px] mx-4'>
             <Link href='https://mudrex.com/blog/binance-ban-update/'>
                 <Image  className="rounded-lg" src='/icons/news1.jpg' height={115} width={230} />
