@@ -24,7 +24,7 @@ function Page() {
 </div>
  <hr class="h-[10px] h-px my-8 bg-[#cdcbe8] border-0 "></hr>
       <div className='flex gap-3'>
-        <h1 className='font-inter font-bold text-[22px] my-4 py-4 mx-8 py-[2px] text-left'>
+        <h1 className='font-inter font-bold text-[22px] my-4 py-4 px-4 mx-8 py-[2px] text-left'>
           Understand your investment options at Mudrex!
         </h1>
         <Image src='/icons/mudrex-logo-learn.png' width={70} height={50} />
